@@ -1,0 +1,131 @@
+﻿/*
+ * Droid Arabic Naskh (Arabic) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/droidarabicnaskh/v7/DroidNaskh-Bold.ttf) format('truetype');
+}
+
+
+
+*,body,
+button,
+input,
+select,p,
+textarea , h1, .h1, h2, .h2, .h3, h3,
+h4, .h4, h5, .h5, .h6, h6{
+  letter-spacing: 0 !important;
+  font-family: 'Droid Arabic Naskh' !important;
+}
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+  font-family: "Droid Arabic Naskh" !important;
+}
+html.teluro-theme body {
+  font-family: "Droid Arabic Naskh" !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+html.teluro-theme #colibri .style-78 .colibri-post-content p {
+  font-family: "Droid Arabic Naskh" !important;
+  text-align: right;
+}
+
+html.teluro-theme body p {  
+  text-align: right;
+  font-family: 'Droid Arabic Naskh';
+}
+
+/**اتجاه النص الى اليمين بالكارت**/
+html.teluro-theme #colibri .style-113 {
+  text-align: right;
+}
+/**اتجاه نص اسم الكاتب و التوقيت الى اليمين**/
+html.teluro-theme #colibri .style-76 {
+  text-align: right;
+}
+/**اتجاه نص التصنيفات الى اليمين **/
+html.teluro-theme #colibri .style-525 {
+  text-align: right;
+}
+/**اتجاه النص الى اليمين بقسم التعليقات**/
+html.teluro-theme #colibri .style-100 {
+  text-align: right;
+}
+/**اتجاه النص الى اليمين بقسم الشريط الجانبي**/
+html.teluro-theme #colibri .style-168 .widget {
+  text-align: right;
+}
+/**اتجاه زر المواضيع السايقة الى اليمين**/
+html.teluro-theme #colibri .style-90 {
+  text-align: right;
+}
+/**اتجاه زر المواضيع التالية الى اليسار**/
+html.teluro-theme #colibri .style-92 {
+  text-align: left;
+}
+/**اتجاه نص الوسوم الى اليمين **/
+html.teluro-theme #colibri .style-87 {
+  text-align: right;
+}
+/**اتجاه الازرار الى اليمين في قسم الدعم **/
+html.teluro-theme #colibri [data-colibri-id="7-h27"] {
+  text-align: right;
+}
+/**اتجاه النص الى اليمين في النص الدعم **/
+html.teluro-theme #colibri [data-colibri-id="7-h26"] {
+  text-align: right;
+}
+/**اتجاه النص الرئيسي الى اليمين في النص الدعم **/
+html.teluro-theme #colibri .style-26 {
+  text-align: right;
+}/***مسافة بين الايقونة و معلوات التواصل***/
+html.teluro-theme #colibri .style-21 .list-text {
+  margin-right: 5px;
+}
+/**اتجاه العنوان بالصفحة الثابتة**/
+html.teluro-theme body h2 {
+  text-align: right;
+  font-family: 'Droid Arabic Naskh';
+}
+/**اتجاه الاقتباسات**/
+html.teluro-theme blockquote:not(.is-large), html.teluro-theme blockquote:not(.is-style-large), html.teluro-theme .wp-block-quote:not(.is-large), html.teluro-theme .wp-block-quote:not(.is-style-large) {
+  text-align: right;
+  font-family: 'Droid Arabic Naskh';
+}
+html.teluro-theme [class*="type-"].post ul, html.teluro-theme [class*="type-"].post ol, html.teluro-theme [class*="type-"].page ul, html.teluro-theme [class*="type-"].page ol {
+  text-align: right;
+  font-family: 'Droid Arabic Naskh';
+}
+html.teluro-theme .wp-block-archives, html.teluro-theme .wp-block-categories, html.teluro-theme .wp-block-latest-posts {
+    text-align: right;
+    font-family: 'Droid Arabic Naskh';
+}
+html.teluro-theme .wp-block-audio figcaption, html.teluro-theme .wp-block-video figcaption, html.teluro-theme .wp-block-image figcaption, html.teluro-theme .wp-block-gallery .blocks-gallery-image figcaption, html.teluro-theme .wp-block-gallery .blocks-gallery-item figcaption {
+  font-family: 'Droid Arabic Naskh';
+  text-align: right;
+}
+@media (min-width: 768px){
+html.teluro-theme body {
+    text-align: right;
+    
+}
+}
